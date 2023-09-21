@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CodeWars;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -165,13 +166,20 @@ namespace ConsoleApp3
 
             */
 
+            /*
+                        LeetTwoSum lts = new LeetTwoSum();
+                        lts.TwoSum(new int[] {0, 1,3,5,6,8,10,12,15},15);
+                        var res = lts.TwoSum(new int[] { 3, 3 },6);
+                        lts.TwoSum(new int[] {-1,-2,-3,-4,-5 }, -8);
+            */
 
+           //  var answer = LeetAddTwoNumbers.AddTwoNumbers (new ListNode(3, new ListNode (2, new ListNode (1))), new ListNode(3, new ListNode(2, new ListNode(9, new ListNode(3)))));
+          var answer = LeetAddTwoNumbers.AddTwoNumbers(new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))))))), 
+                new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))));
+            
+           // var answer = LeetAddTwoNumbers.AddTwoNumbers(new ListNode(0), new ListNode(0));
 
-
-
-
-
-            Console.WriteLine("");
+            Console.WriteLine("[{0}]", answer);
         }
 
         

@@ -173,13 +173,21 @@ namespace ConsoleApp3
                         lts.TwoSum(new int[] {-1,-2,-3,-4,-5 }, -8);
             */
 
-           //  var answer = LeetAddTwoNumbers.AddTwoNumbers (new ListNode(3, new ListNode (2, new ListNode (1))), new ListNode(3, new ListNode(2, new ListNode(9, new ListNode(3)))));
-          var answer = LeetAddTwoNumbers.AddTwoNumbers(new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))))))), 
-                new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))));
-            
-           // var answer = LeetAddTwoNumbers.AddTwoNumbers(new ListNode(0), new ListNode(0));
+            //  var answer = LeetAddTwoNumbers.AddTwoNumbers (new ListNode(3, new ListNode (2, new ListNode (1))), new ListNode(3, new ListNode(2, new ListNode(9, new ListNode(3)))));
+            /* var answer = LeetAddTwoNumbers.AddTwoNumbers(new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))))))), 
+                   new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))));
 
-            Console.WriteLine("[{0}]", answer);
+              // var answer = LeetAddTwoNumbers.AddTwoNumbers(new ListNode(0), new ListNode(0));
+   */
+            //  var str = LengthOfLongestSubstring.getLengthOfLongestSubstring("");
+
+            //var str = LongestPalindrome.getLongestPalindrome("bavab");
+
+            //var isPalindrome = PalindromeNumber.IsPalindrome(10);
+
+            var str = ZigzagConversion.Convert("PA",1);
+
+            Console.WriteLine("[{0}]", str);
         }
 
         

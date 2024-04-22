@@ -185,9 +185,11 @@ namespace ConsoleApp3
 
             //var isPalindrome = PalindromeNumber.IsPalindrome(10);
 
-            var str = ZigzagConversion.Convert("PA",1);
+            //var str = ZigzagConversion.Convert("PA",1);
 
-            Console.WriteLine("[{0}]", str);
+            var res = MedianOfTwoSortedArrays.FindMedianSortedArrays(new int[] { 3, 4, 5 }, new int[] { 1, 2 });
+
+            Console.WriteLine("[{0}]", res.ToString());
         }
 
         

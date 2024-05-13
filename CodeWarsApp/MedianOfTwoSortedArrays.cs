@@ -13,7 +13,7 @@ namespace CodeWars
             int i1 = 0 , i2 = 0, i=0;
             bool odd = Convert.ToBoolean((nums1.Length + nums2.Length) % 2);
             int lastIndex = (nums1.Length + nums2.Length) / 2;
-            int[] resNums = new int[nums1.Length +  nums2.Length];
+            int[] resNums = new int[lastIndex+1];
             while (i1 + i2 < lastIndex+1)
             {
                 if (i1 >= nums1.Length)

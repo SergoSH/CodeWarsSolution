@@ -187,7 +187,14 @@ namespace ConsoleApp3
 
             //var str = ZigzagConversion.Convert("PA",1);
 
-            var res = MedianOfTwoSortedArrays.FindMedianSortedArrays(new int[] { 3, 4, 5 }, new int[] { 1, 2 });
+            //var res = MedianOfTwoSortedArrays.FindMedianSortedArrays(new int[] { 3, 4, 5 }, new int[] { 1, 2 });
+
+            //var res = RegExMatching.IsMatch("mississippi", "mis*is*p*.");
+            var res = RegExMatching.IsMatch("mississippi", "mis*is*ip*.");
+            //var res = RegExMatching.IsMatch("ab", ".*");
+            //var res = RegExMatching.IsMatch("aa", "a*");
+            //var res = RegExMatching.IsMatch("aaa", ".a");
+            //var res = RegExMatching.IsMatch("aaa", "ab*a");
 
             Console.WriteLine("[{0}]", res.ToString());
         }
